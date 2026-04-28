@@ -19,9 +19,14 @@
 .desktop-only { display: block; }
 .mobile-only { display: none; }
 
+.br-desktop { display: block; }
+.br-mobile { display: none; }
+
 @media (max-width: 768px) {
     .desktop-only { display: none !important; }
     .mobile-only { display: block !important; }
+    .br-desktop { display: none !important; }
+    .br-mobile { display: block !important; }
 }
 
 
