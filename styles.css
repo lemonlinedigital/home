@@ -16,6 +16,15 @@
     --transition: all 0.3s ease;
 }
 
+.desktop-only { display: block; }
+.mobile-only { display: none; }
+
+@media (max-width: 768px) {
+    .desktop-only { display: none !important; }
+    .mobile-only { display: block !important; }
+}
+
+
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 html { scroll-behavior: smooth; }
@@ -64,6 +73,8 @@ header.scrolled { box-shadow: var(--shadow-sm); border-bottom: 1px solid var(--b
 .nav-links { display: flex; gap: 32px; }
 .nav-links a { font-weight: 500; color: var(--text-gray); transition: var(--transition); }
 .nav-links a:hover { color: var(--primary-blue); }
+
+.header-cta .btn { white-space: nowrap; padding: 10px 20px; font-size: 0.9rem; }
 
 .hero {
     padding: 160px 0 80px;
