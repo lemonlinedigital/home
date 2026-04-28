@@ -230,7 +230,7 @@ footer { background-color: #1A1A1A; color: #FFFFFF; padding: 60px 0 20px; }
 }
 @media (max-width: 768px) {
     h2 { font-size: 2rem; }
-    .hero-content h1 { font-size: 2.5rem; }
+    .hero-content h1 { font-size: 2.2rem; }
     .nav-links { display: none; }
     .table-wrapper { overflow-x: auto; }
     .hero { padding: 120px 0 60px; }
