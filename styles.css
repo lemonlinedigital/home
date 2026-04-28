@@ -60,6 +60,7 @@ header {
 header.scrolled { box-shadow: var(--shadow-sm); border-bottom: 1px solid var(--border-color); }
 .header-inner { display: flex; justify-content: space-between; align-items: center; height: 80px; }
 .logo { font-size: 1.5rem; font-weight: 800; color: var(--primary-yellow); display: flex; align-items: center; gap: 8px; }
+.logo img { height: 50px; width: auto; object-fit: contain; }
 .nav-links { display: flex; gap: 32px; }
 .nav-links a { font-weight: 500; color: var(--text-gray); transition: var(--transition); }
 .nav-links a:hover { color: var(--primary-blue); }
