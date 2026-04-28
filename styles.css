@@ -232,6 +232,8 @@ footer { background-color: #1A1A1A; color: #FFFFFF; padding: 60px 0 20px; }
     h2 { font-size: 2rem; }
     .hero-content h1 { font-size: 2.2rem; }
     .nav-links { display: none; }
-    .table-wrapper { overflow-x: auto; }
+    .table-wrapper { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    th, td { padding: 10px 4px; font-size: 0.75rem; }
+    .check, .cross { font-size: 1rem; }
     .hero { padding: 120px 0 60px; }
 }
